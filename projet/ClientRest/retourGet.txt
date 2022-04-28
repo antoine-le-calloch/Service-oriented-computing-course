@@ -1,0 +1,65 @@
+{
+	"geocoding":
+	{
+		"version":"0.2","attribution":"https://openrouteservice.org/terms-of-service/#attribution-geocode","query":
+		{
+			"text":"40 rue de fenoul","size":10,"private":false,"lang":
+			{
+				"name":"French","iso6391":"fr","iso6393":"fra","via":"header","defaulted":false
+			},
+			"querySize":20,"parser":"libpostal","parsed_text":
+			{
+				"housenumber":"40","street":"rue de fenoul"
+			}
+		},
+		"engine":
+		{
+			"name":"Pelias","author":"Mapzen","version":"1.0"
+		},
+		"timestamp":1650976142034
+	},
+	"type":"FeatureCollection","features":
+	[{
+		"type":"Feature","geometry":
+		{
+			"type":"Point","coordinates":[1.483126,43.589232]
+		},
+		"properties":
+		{
+			"id":"polyline:10335769",
+			"gid":"openstreetmap:street:polyline:10335769",
+			"layer":"street",
+			"source":"openstreetmap",
+			"source_id":"polyline:10335769",
+			"name":"Rue de Fenoul",
+			"street":"Rue de Fenoul",
+			"confidence":0.8,
+			"match_type":"fallback",
+			"accuracy":"centroid",
+			"country":"France",
+			"country_gid":"whosonfirst:country:85633147",
+			"country_a":"FRA",
+			"macroregion":"Occitanie",
+			"macroregion_gid":"whosonfirst:macroregion:1108826387",
+			"macroregion_a":"LP",
+			"region":"Haute-Garonne",
+			"region_gid":"whosonfirst:region:85683397",
+			"region_a":"HG",
+			"macrocounty":"Toulouse",
+			"macrocounty_gid":"whosonfirst:macrocounty:404228067",
+			"county":"Toulouse",
+			"county_gid":"whosonfirst:county:102072513",
+			"localadmin":"Toulouse",
+			"localadmin_gid":"whosonfirst:localadmin:1159321987",
+			"locality":"Toulouse",
+			"locality_gid":"whosonfirst:locality:101750691",
+			"continent":"Europe",
+			"continent_gid":"whosonfirst:continent:102191581",
+			"label":"Rue de Fenoul,
+			 Toulouse, 
+			France"
+		},
+		"bbox":[1.482054,43.589066,1.48318,43.589773]
+	}],
+	"bbox":[1.482054,43.589066,1.48318,43.589773]
+}
